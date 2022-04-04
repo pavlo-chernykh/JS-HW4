@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+
+let height = prompt('сколько этажей у елки?')
+let string = "";
+for (let i = 1; i <= height; i++) {
+  for (let spaces = 1; spaces <= height - i; spaces++) {
+    string += " ";
+  }
+  for (let stars = 0; stars < 2 * i - 1; stars++) {
+    string += "*";
+  }
+  string += "\n";
+}
+alert(string);
+
+
+
+
+
+    // for (let entryIndex= 1; entryIndex <= 2; entryIndex++){
+    //   for (let floorIndex= 1; floorIndex <= 5; floorIndex++){
+    //     for (let apartIndex= 1; apartIndex <= 4; apartIndex++){
+    //       if(apartIndex % 2 === 0) continue;
+    //       console.log('Entry#', entryIndex, 'Floor#', floorIndex, 'Apart#', apartIndex);
+    //   }
+    // }
+
+  //   entryLoop: for (let entryIndex= 1; entryIndex <= 2; entryIndex++){
+  //     floorLoop: for (let floorIndex= 1; floorIndex <= 5; floorIndex++){
+  //       for (let apartIndex= 1; apartIndex <= 4; apartIndex++){
+  //         if(entryIndex === 2 && floorIndex === 1 && apartIndex === 1) continue entryLoop;
+  //         console.log('Entry#', entryIndex, 'Floor#', floorIndex, 'Apart#', apartIndex);
+  //     }
+  //   }
+  // }
+  
+  
+  // for (const char of 'trololo') {
+  //   console.log(char);
+  // }
+
+  // const chrisTree = '*';
+  // for (let bombom = 0; bombom < chrisTree.length; bombom++) {
+  //   console.log(chrisTree[bombom]);;
+    
+
+// var levels = prompt('How many levels high should be the tree?');
+
+// drawTree(levels);
+
+// const names = ['   *   ', '  ***  ', ' ***** ', '*******']
+
+// for (const name of names) {
+//   alert(name);
+  
+// }
+  </script>
+</body>
+</html>
